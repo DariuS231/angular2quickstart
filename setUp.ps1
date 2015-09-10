@@ -5,7 +5,7 @@ Function PressKeyToContinue () {
     cls
 }
 Write-Host "Installing the TypeScript Definition manager package"
-npm install -g tsd
+npm install -g tsd@^0.6.0
 PressKeyToContinue
 Write-Host "Getting 'Angular2', 'es-promise', 'rx' and 'rx-lite'"
 tsd install angular2 es-promise rx rx-lite
